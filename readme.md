@@ -42,3 +42,24 @@ Application (with the embedded H2 database) is ready to be used ! You can access
 - Appropriate usage of packages
 - Is the application running as expected
 - No performance issues
+
+
+### Notes for reviewer
+
+#### Before starting
+
+I don't have any previous experience in Java, so please try to keep that in mind. I focused more on the node application.
+
+First I had to setup the entire environment. 
+
+#### What I did
+
+First I started by trying to add authentication. 
+
+Updated to JUnit5. 
+
+Created HelloController for learning how to test, then creating some tests for EmployeeController.
+
+Removed scope from lombok, it caused getters to be undefined.
+
+Cached getEmployee. 
