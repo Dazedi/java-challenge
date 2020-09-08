@@ -50,7 +50,9 @@ Application (with the embedded H2 database) is ready to be used ! You can access
 
 I don't have any previous experience in Java, so please try to keep that in mind. I focused more on the node application.
 
-First I had to setup the entire environment. 
+First I had to setup the entire environment, which took a while due to my quite slow internet connection and since it was
+my first time setting up a Java development environment. I used SDK to install java, added various extensions on VSCode
+and got it to work.
 
 #### What I did
 
@@ -63,3 +65,11 @@ Created HelloController for learning how to test, then creating some tests for E
 Removed scope from lombok, it caused getters to be undefined.
 
 Cached getEmployee. 
+
+#### If I had a lot more time
+
+I could have properly studied Java and could have made the EmployeeRepositoryTest work as well.
+As I said, I have zero experience in Java, but the basics don't seem too hard, and it kind of 
+reminds me of Typescript (I switched to Typescript on the node santa app). It's more about
+knowing the peculiarities of various libraries and how to use them I think, that a bit too much
+for this short time.
